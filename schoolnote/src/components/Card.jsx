@@ -1,5 +1,7 @@
 import React from 'react';
 
+//Creación de la tarjeta de estudiante
+
 export const Card = ({ estudiante }) => {
   return (
     <div style={{ border: '1px solid black', width: '250px', margin: '10px', padding: '5px' }}>

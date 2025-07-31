@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+//Creación del formulario de registro de estudiantes
+
 export const Form = ({ onAgregar, datosEditar }) => {
   const [formulario, setFormulario] = useState({
     nombre: '',
@@ -9,6 +11,7 @@ export const Form = ({ onAgregar, datosEditar }) => {
     id: null
   });
 
+  //Actualizar datos del formulario
   useEffect(() => {
     if (datosEditar) {
       setFormulario(datosEditar);
