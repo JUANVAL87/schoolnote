@@ -1,12 +1,16 @@
-# React + Vite
+-- GitHub GitHub - The-User-323/schoolnote
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Guía de instalación
 
-Currently, two official plugins are available:
+Clonar repositorio de git hub “https://github.com/The-User-323/schoolnote.git”
+Instalar dependecias con "npm install"
+Iniciar servidor local con "npm run dev"
+Ingresar al link brindado
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Guía de uso Registro
 
-## Expanding the ESLint configuration
+En el botón "Ver registro" se despliega un formulario que al llenarlo, la información se ira a una tarjeta.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Estudiantes
+
+En el botón ver lista, se verán las tarjetas de todos los estudiantes creados con la información dada y se verá un promedio de las notas entre cada uno de ellos.
